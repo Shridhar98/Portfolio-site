@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/375b0ce0ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Coding Profiles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi , I'm <span>Shridhar Reddy</span> </h1>
+                <p>a <span>pro</span>grammer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/new profile.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I am a hardworking and dedicated undergraduate student. I have good grasping power and
+                        problem-solving ability.I do competitive programming.I am a lenient programmer who aspires
+                        to work under various circumstances.<br>
+                        Looking for internship opportunities for gaining industry experience and seeking to use my
+                        knowledge and communication skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>A Competitive Programmer </span><br>3⭐ coder at Codechef
+                            </li>
+                            <li>
+                                <span>Web Development </span><br>HTML,CSS,JS
+                            </li>
+                            <li>
+                                <span>Problem Solving </span><br>I have a good grasp over Data Structures and
+                                Algorithms
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2023 </span><br>I have made a group mini project for Smart Classroom Attendence
+                                System using tkinter module for Graphical User Interface
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2021 - 2025</span><br>Pursuing B-tech degree at IIEST Shibpur
+                            </li>
+                            <li>
+                                <span>2019 - 2021</span><br>Higher Secondary Schooling from Shri Channabasaweshwara
+                                Gurukul ,Bhalki
+                            </li>
+                            <li>
+                                <span>2018</span><br>Secondary Schooling from Jawahar Navodaya Vidyalaya,Bidar(CBSE)
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <a href="" class="btn btn2">Download CV</a> -->
+
+<br><br><br><br><br><br><br>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> Coding Profiles</h1>
+            <div class="services-list">
+                <div>
+
+                    <img src="images/leetcode.png" alt="" height="250px" width="200px">
+                    <a href="https://leetcode.com/Shridhar_9/"><i class="fa fa-external-link"
+                            aria-hidden="true">leetcode</i></a>
+                </div>
+                <div>
+                    <img src="images/codechef.jpg" alt="" height="250px" width="200px">
+                    <a href="https://www.codechef.com/users/shridhar99"><i class="fa fa-external-link"
+                            aria-hidden="true">Codechef</i></a>
+                </div>
+                <div>
+                    <img src="images/codeforces.png" alt="" height="250px" width="200px">
+                    <a href="https://codeforces.com/profile/shridhar9"><i class="fa fa-external-link"
+                            aria-hidden="true">Codeforces</i></a>
+                </div>
+                <div>
+                    <img src="images/gfg_200x2.png" alt="" height="250px" width="200px">
+                    <a
+                        href="https://auth.geeksforgeeks.org/user/reddyshridhar48/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><i
+                            class="fa fa-external-link" aria-hidden="true">GFG</i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>reddyshridhar48@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7483532614</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100029853906750"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/@Shridha65463309"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/shridhard.r"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/shridhar-reddy-18423922a"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Shridhar_Reddy_Resume.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shridhar. Made with <i class="fa-solid fa-heart"></i> by Shridhar Reddy</p>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzKfp1ZmLMnd-Qpw_UteQaK0jYOOxCgzjyHWqxXQuyD6_zBRxq38AtZTKXCGzGfxYbW/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
